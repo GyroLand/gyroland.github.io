@@ -23,7 +23,7 @@
   }
 
   ext.echo = function(cb) {
-    sendCodieRequest("/commands/echo", {}, cb);
+    sendCodieRequest("/commands/echo", {dummy: 0}, cb);
   };
 
   ext.speed = function(leftSpeed, rightSpeed, cb) {
@@ -47,7 +47,7 @@
     }, cb);
   };
 
-  ext.beep = function(volume, frequency, duration, cb) {
+  ext.beep = function(duration, cb) {
     sendCodieRequest("/commands/beep", {
       duration: duration
     }, cb);
