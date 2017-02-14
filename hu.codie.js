@@ -88,7 +88,7 @@
       ["w", "Ping", "echo"],  
       ["w", "Mozogj %n mm-t, %n százalék sebességgel", "move", 100, 50],
       ["w", "Enable both motors. Left %n Right %n", "speed", 50, 50],
-      ["w", "Fordulj %m.turnDirection %n fokot %n százalék sebességgel", "turn", "left", 90, 50],
+      ["w", "Fordulj %m.turnDirection %n fokot %n százalék sebességgel", "turn", "balra", 90, 50],
       ["w", "Sípolj %n miliszekundumig", "beep", 100],
       ["w", "Szín: H %n S %n V %n", "setColor", 50, 100, 100],
 
